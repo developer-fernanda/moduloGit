@@ -1,14 +1,22 @@
 <!--CRIAR CHAVE-->
 
-<!--INSERIR COMANDO-->
+<!--INSERIR COMANDO NO PROMPT -->
 $ ssh-keygen -t rsa -b 4096 -C "developer.fernanda.ingrid@gmail.com"
 
 - Ele cria uma chave primaria
 
 
-<!--CONFIGURAÇÕES NO GIT-->
-1- Acessar a pasta origem (c:/Users/fenan/.ssh)
+<!--CONFIGURAÇÕES NO GITHUB-->
+1- Acessar a pasta origem no PC(c:/Users/fenan/.ssh)
 2- Abrir a .ssh.pub e copiar a chave
 3- No GITHUB - settings > SSH > NEW SSH > Colocar Titulo e colar código da chave primaria 
 4- Abrir repositório - Copiar repositório 
 git remote add origin https://github.com/developer-fernanda/moduloGit.git
+
+
+<!--NO GIT BASH-->
+1- Entrar na pasta onde está o repositório que irá ser clonado para o GITHUB
+2- Colar o link: git remote add origin https://github.com/developer-fernanda/moduloGit.git
+3- Comando git remote 
+4- Colar o link: git push -u origin master (Colocar o nome do branch que será clonada no git)
+
