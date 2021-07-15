@@ -22,7 +22,7 @@ git config --list  <!--Retorna todos os dados cadastrados-->
 
  <!--COMANDOS BÁSICO-->
 
- cd c:/  <!-- Cd + nome da pasta -->
+ cd c:/  <!-- Cd + nome da pasta - Usar "" para pasta com espaço-->
 
  dir  <!--Lista arquivos da pasta-->
 
@@ -51,6 +51,10 @@ git config --list  <!--Retorna todos os dados cadastrados-->
 
  git log <!-- Mostra informações do Commit-->
 
+ git cls <!--Limpar comandos no prompt-->
+
+ git clear <!--Limpar comandos no Git Bash-->
+
 
  <!--GIT RESET - TIPOS-->
 
@@ -72,7 +76,7 @@ git branch nomeQueDesejaDar <!--Criando uma branch-->
 git checkout NomedaBranch <!--Muda para branch desejada-->
 
  
-<!--GIT Diff-->
+<!--GIT DIFF-->
 
 git diff <!--Mostra alterações realizadas-->
 
@@ -82,19 +86,10 @@ git diff nomeDoArquivo <!--Mostra as alterações no arquivo desejado-->
 
 git diff checkout HEAD -- nomeDoArquivo <!--Ele volta p como estava antes do ultimo commit-->
 
-<!--GIT Diff-->
-
-git diff <!--Mostra alterações realizadas-->
-
-git diff --name-only <!--Mostra nome dos arquivos modificados-->
-
-git diff nomeDoArquivo <!--Mostra as alterações no arquivo desejado-->
-
-git diff checkout HEAD -- nomeDoArquivo 
-<!--Ele retorna para como estava antes-->
 
 
 <!--COMANDO GIT BASH-->
+
 git remote  <!--Mostra que o arquivo foi clonado-->
 
 git remote -V  <!--Mostra fetch push-->
@@ -106,4 +101,6 @@ git remote -V  <!--Mostra fetch push-->
 
  <!--GIT PUSH-->
 
- git push origin master <!--Inserir a branch da qual deseja fazer o commit->
+ git push origin master <!--Inserir a branch da qual deseja fazer o commit-->
+
+
