@@ -65,7 +65,7 @@ git config --list  <!--Retorna todos os dados cadastrados-->
 git reset -- hard 757435450745742577537537575 <!--Comando mais o numero do commit para qual deseja retornar-->
 
 
- <!--GIT BRANCH-->
+<!--GIT BRANCH-->
 
 git branch <!--Mostra a branch-->
 
@@ -73,3 +73,24 @@ git branch nomeQueDesejaDar <!--Criando uma branch-->
 
 git checkout NomedaBranch <!--Muda para branch desejada-->
 
+ 
+<!--GIT Diff-->
+
+git diff <!--Mostra alterações realizadas-->
+
+git diff --name-only <!--Mostra nome dos arquivos modificados-->
+
+git diff nomeDoArquivo <!--Mostra as alterações no arquivo desejado-->
+
+git diff checkout HEAD -- nomeDoArquivo <!--Ele volta p como estava antes do ultimo commit-->
+
+<!--GIT Diff-->
+
+git diff <!--Mostra alterações realizadas-->
+
+git diff --name-only <!--Mostra nome dos arquivos modificados-->
+
+git diff nomeDoArquivo <!--Mostra as alterações no arquivo desejado-->
+
+git diff checkout HEAD -- nomeDoArquivo 
+<!--Ele retorna para como estava antes->
