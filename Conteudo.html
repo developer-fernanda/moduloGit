@@ -1,0 +1,75 @@
+
+<!--VER A VERSÃO DO GIT-->
+
+git --version 
+
+
+<!--CONFIGURANDO GIT-->
+
+git config --global user.name(Fernanda)
+
+git config --global user.email nandaingrid@gmail.com
+
+git config --global core.editor vscode
+
+
+<!--VER CONFIGURAÇÕES CADASTRADAS-->
+
+git config user.name <!--Retorna o nome cadastrado-->
+
+git config --list  <!--Retorna todos os dados cadastrados-->
+
+
+ <!--COMANDOS BÁSICO-->
+
+ cd c:/  <!-- Cd + nome da pasta -->
+
+ dir  <!--Lista arquivos da pasta-->
+
+ mkdir nomePasta  <!--Cria pasta-->
+
+ cd..  <!--volta-->
+
+ git init  <!--Inicia o repositório-->
+
+ cd .git  <!--Acessa a pasta-->
+
+
+ <!--BRANCH - VERSÕES DO SISTEMA -->
+
+ * Master é a versão principal
+
+ git status <!--Mostra Conteúdos add-->
+
+ git add readme.html <!--Add um arquivo-->
+
+ git add -A <!--Add todos os arquivos novos-->
+
+ git commit -m"Commitando arquivos" <!--Commit de arquivos para git-->
+
+ git commit -am"Commitando arquivos" <!--Add e Commit de arquivos para git-->
+
+ git log <!-- Mostra informações do Commit-->
+
+
+
+
+ <!--GIT RESET - TIPOS-->
+
+ git reset --solf  <!--Volta para o estágio anterior mantendo as alterações antes do commit-->
+
+ git reset --mexed  <!--Volta para o estágio anterior - Mas os os arquivos ainda não foram add e comitados -->
+
+ git reset --hard  <!--Ignora o ultimo commit e volta para o estágio anterior descartando ultimas alterações -->
+
+git reset -- hard 757435450745742577537537575 <!--Comando mais o numero do commit para qual deseja retornar-->
+
+
+ <!--GIT BRANCH-->
+
+git branch <!--Mostra a branch-->
+
+git branch nomeQueDesejaDar <!--Criando uma branch-->
+
+git checkout NomedaBranch <!--Muda para branch desejada-->
+
